@@ -1,7 +1,7 @@
 ## RDM Password Generator 
 
 ## Link to Deployed Assets 
-
+https://racheldmarron.github.io/secure-password-generator/
 
 ## Overview
 
@@ -42,9 +42,9 @@ I then was able to create a function to generate the password. Along the way, it
 
 ## Visual Representations
 
-[]! ./assets/password-visual-1.png
-[]! ./assets/password-visual-2.png
-[]! ./assets/password-visual-3.png
+![](./assets/password-visual-1.png)
+![](./assets/password-visual-2.png)
+![](./assets/password-visual-3.png)
 
 
 - - -
