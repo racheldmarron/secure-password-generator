@@ -18,18 +18,22 @@ var addSpecialCharacter;
 function generatePassword() {
   var addLength = (prompt("How many characters do you want your password to be? (8 - 128 characters)."));
 
+//Message shown when employee selects wrong min or max character length
   while (addLength <= 7 || addLength >= 129) {
     alert("Password length must be between 8 - 128 characters. Please try again."); 
     var addLength = (prompt("How many characters do you want your password to be? (8 - 128 characters).")); 
   }
 
+//Message shown when password length is accepted
   alert("Your password length will be " + addLength + " characters."); 
 
+//Asks employees which variable to include
   var addUpperCase = confirm("Should Password include uppercase characters? Press 'OK' to add and 'Cancel' to remove."); 
   var addLowerCase = confirm("Should Password include lowercase characters? Press 'OK' to add and 'Cancel' to remove."); 
   var addNumber = confirm("Should Password include numbers? Press 'OK' to add and 'Cancel' to remove."); 
   var addSpecialCharacter = confirm("Should password include special characters? Press 'OK' to add and 'Cancel' to remove."); 
 
+//Message shown when employees do not select any variable criteria
   while (
     addUpperCase === false &&
     addLowerCase === false &&
@@ -44,6 +48,7 @@ function generatePassword() {
 
     }
 
+  //Password Generator
   var passwordName = [] 
       if (addUpperCase) {passwordName = passwordName.concat(upperCase)}
       if (addLowerCase) {passwordName = passwordName.concat(lowerCase)}

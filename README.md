@@ -36,7 +36,7 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## How This Was Acheieved
-<ul><li>By using JavaScript, I was able to pass all acceptance criteria. I created variables for password requirements (uppercase, lowercase, number, special characters).<li>
+<ul><li>By using JavaScript, I was able to pass all acceptance criteria. I created variables for password requirements (uppercase, lowercase, number, special characters).</li>
 <li>I then was able to create a function to generate the password.</li>
 <li>Along the way, it asks the employee criteria on which requirements they would like to include and how many characters they want the password to be.</li>
 <li>In case the employee chose no requirements, or the incorrect number of characters (minimum or maximum), the employee would receive an error message to try again.</li>
