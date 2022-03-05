@@ -48,6 +48,15 @@ THEN the password is either displayed in an alert or written to the page
 ![](./assets/password-visual-2.png)
 ![](./assets/password-visual-3.png)
 
+## Contributors
+
+- N/A
+
+## License
+
+This application is covered under MIT License    
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 - - -
 © 2021 Rachel Delaney Marron, Inc. All Rights Reserved.
